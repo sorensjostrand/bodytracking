@@ -23,8 +23,8 @@ uint32_t color = (255, 255, 255);    // 'On' color (starts red)
 
 //MQTT VAR
 
-const char ssid[] = "SOREN24";
-const char pass[] = "483AB34BAB";
+const char ssid[] = "ddlabwifi";
+const char pass[] = "balddbaldd";
 
 const char key[] = "99e72d4e";
 const char secret[] = "60aae166ad92ba1d";
@@ -128,7 +128,8 @@ void messageReceived(String &topic, String &payload) {
   Serial.println("incoming: " + topic + " - " + payload);
   //delay(1000);
 
-  payloadInt = payload.toInt();
+ payloadInt = payload.toInt();
+
 
 
 

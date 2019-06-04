@@ -58,13 +58,7 @@ function setup() {
     frameRate(5);
     createCanvas(640, 480);
 
-    var options = {
-    video: {
-       optional: [{
-         sourceId: 'put_desired_source_id_here'
-        }]
-      }
-    };
+
 
    video = createCapture(options);
    video.size(width, height);
